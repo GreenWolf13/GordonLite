@@ -26,7 +26,7 @@ class SCPThread(threading.Thread):
         scptalepages = ["/system%3Apage-tags/tag/tale"]
         scpgoipages = ["/system%3Apage-tags/tag/goi-format"]
 
-        scpinterval = 60 * 15
+        scpinterval = 60 * 6
         scpcounter = 0
         talecounter = 0
         goicounter = 0
