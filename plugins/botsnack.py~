@@ -1,0 +1,17 @@
+from util import hook
+
+@hook.regex("^botsnack$")
+def react(inp, input=None):
+	input.say(":D")
+
+@hook.regex("^gordonsnack$")
+def react(inp, input=None):
+	input.say(":D")
+
+@hook.regex("^Botsnack$")
+def react(inp, input=None):
+	input.say(":D")
+
+@hook.regex("^Gordonsnack$")
+def react(inp, input=None):
+	input.say(":D")
